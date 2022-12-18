@@ -10,9 +10,11 @@ Refer https://osoyoo.com/2016/06/01/drive-i2c-lcd-screen-with-raspberry-pi/
 - testing hardware
 - download python library
 
-### run 
+### run
+```
 pipenv install
 pipenv run start
+```
 
 ## Reference Implementation
 ### Hardwares
