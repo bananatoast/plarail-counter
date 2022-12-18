@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spidev = "*"
+RPi = {GPIO = "*"}
+
+[dev-packages]
+
+[scripts]
+start = "python counter.py"
+
+[pipenv]
+allow_prereleases = true
